@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  docker-entrypoint-example:
+    image: docker-entrypoint-example
+    entrypoint:
+      # - /bin/date
+      - /app/hello
